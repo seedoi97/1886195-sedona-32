@@ -40,9 +40,9 @@ body {
 
 .intro {
   color: #000000;
-  background-color: #5a3426;
+  background-color: #756257;
   background-image: url("../images/intro/index-background.jpg");
-  background-size: cover auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -52,19 +52,6 @@ body {
 
 .advantages {
   text-align: center;
-}
-
-.advantages-title-1 {
-  text-transform: uppercase;
-  size: 30px;
-  line-height: 36px;
-  background-color: #83b3d3;
-  color: #ffffff;
-}
-
-.advantages-description-1 {
-  background-color: #83b3d3;
-  color: #ffffff;
 }
 
 .features-item-1 {
