@@ -41,7 +41,7 @@ body {
 .intro {
   color: #000000;
   background-color: #5a3426;
-  background-image: url("../images/advantages/index-background.jpg");
+  background-image: url("../images/intro/index-background.jpg");
   background-size: cover auto;
   background-repeat: no-repeat;
 }
