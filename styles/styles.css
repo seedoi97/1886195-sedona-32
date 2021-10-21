@@ -29,7 +29,7 @@ body {
 
 .navigation-link {
   font-family: "PT Sans", sans-serif;
-  size: 20px;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
@@ -59,9 +59,28 @@ body {
   color: #333333;
 }
 
+.advantages-title-causes {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.advantages-description-causes {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .inner-header-title {
   font-family: "PT Sans", sans-serif;
-  size: 60px;
+  font-size: 60px;
   line-height: 78px;
   font-weight: 700;
   text-align: left;
@@ -73,7 +92,8 @@ body {
 }
 
 .causes {
-  size: 22px;
+
+  font-size: 22px;
   line-height: 36px;
   font-weight: 400;
   text-align: center;
@@ -81,33 +101,45 @@ body {
 }
 
 .catalog-filter-title {
-  size: 20px;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   text-align: left;
   color: #ffffff;
 }
 
-.features-item-1 {
-  size: 18px;
-  line-height: 21px;
-  font-weight: 400;
+.features-title-lodging {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
   text-align: center;
-  color: #333333;
+  color: #000000;
   background-color: #ffffff;
+  text-transform: uppercase;
 }
 
-.features-item-2 {
-  size: 18px;
-  line-height: 21px;
-  font-weight: 400;
+.features-title-food {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
   text-align: center;
-  color: #333333;
+  color: #000000;
   background-color: #ffffff;
+  text-transform: uppercase;
 }
 
-.features-item-3 {
-  size: 18px;
+.features-title-souvenirs {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.features-description {
+  font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   text-align: center;
@@ -116,7 +148,7 @@ body {
 }
 
 .control-label {
-  size: 18px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   text-align: left;
@@ -132,7 +164,7 @@ body {
 }
 
 .catalog-info {
-  size: 30px;
+  font-size: 30px;
   line-height: 39px;
   font-weight: 700;
   text-align: left;
@@ -141,7 +173,7 @@ body {
 }
 
 .product-card-title {
-  size: 24px;
+  font-size: 24px;
   line-height: 32px;
   font-weight: 700;
   text-align: left;
@@ -154,11 +186,27 @@ body {
 }
 
 .reservation-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
   text-transform: uppercase;
 }
 
-.advantages-title-2 {
-  size: 18px;
+.advantages-title-facts {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.advantages-description-facts {
+  font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   text-align: center;
@@ -168,7 +216,7 @@ body {
 
 .product-card-type,
 .product-card-price {
-  size: 18px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   text-align: left;
@@ -176,7 +224,7 @@ body {
 }
 
 .product-card-rating {
-  size: 16px;
+  font-size: 16px;
   line-height: 21px;
   font-weight: 400;
   text-align: center;
@@ -196,11 +244,12 @@ body {
 }
 
 .hotel-search {
-  size: 22px;
+  font-size: 22px;
   line-height: 26px;
   font-weight: 400;
   text-align: center;
   color: #333333;
+  background-color: #ffffff;
 }
 
 .subscribe {
@@ -224,6 +273,7 @@ body {
 .button {
   background-color: #83b3d3;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .page-footer {
@@ -232,6 +282,13 @@ body {
 
 .footer-social-item {
   text-align: left;
+  font-style: normal;
+  color: #83b3d3;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .footer-contacts {
@@ -240,10 +297,18 @@ body {
   line-height: 40px;
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
 }
 
 .footer-contacts-phone {
   font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
 }
 
 .branding {
