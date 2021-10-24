@@ -40,6 +40,7 @@
       </nav>
     </header>
     <main class="main-inner">
+      <div class="page-container">
       <div class="catalog-header">
         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -54,6 +55,7 @@
         </header>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
+            <div class="infrastructure">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
@@ -78,8 +80,10 @@
                   </label>
               </li>
             </ul>
+            </div>
           </fieldset>
           <fieldset class="catalog-filter-group">
+            <div class="lodging">
             <legend class="catalog-filter-title">Тип жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
@@ -104,8 +108,10 @@
                   </label>
                 </li>
               </ul>
+            </div>
           </fieldset>
           <fieldset class="catalog-filter-group">
+            <div class="price">
             <legend class="catalog-filter-title">Стоимость,₽:</legend>
             <label class="catalog-filter-label">
               от <input class="catalog-filter-input" type="number" name="min-price"> ₽
@@ -119,6 +125,7 @@
             <button class="range-toggle toggle-max" type="button">
             <span class="visually-hidden">Изменить максимальную цену.</span>
             </button>
+            </div>
           </fieldset>
           <button class="button apply-button" type="submit">Применить</button>
           <button class="discharge-button" type="reset">Сбросить</button>
@@ -269,8 +276,10 @@
            <button class="button newsletter-button" type="submit">Подписаться</button>
          </form>
       </section>
+      </div>
     </main>
   <footer class="page-footer">
+    <div class="page-footer-container">
     <section class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
@@ -304,6 +313,7 @@
         <img src="#" alt="Логотип сайта htmlacademy.">
       </a>
     </section>
+    </div>
   </footer>
   </body>
 </html>
