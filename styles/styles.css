@@ -66,6 +66,7 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .intro {
@@ -90,7 +91,6 @@ body {
 }
 
 .advantages-item {
-  background-color: rgba(131, 179, 211, 0.12);
   flex-wrap:wrap;
   display: flex;
 }
@@ -104,26 +104,25 @@ body {
   width: 100%;
 }
 
-.index-title-causes {
-  width: 220px;
+.advantages-container {
+  width: 400px;
   display: block;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
   text-align: center;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .image-street {
   width: 800px;
 }
 
-.image-advantages {
+.sights-image {
   width: 800px;
 }
 
-.index-columns {
-  display: flex;
-  justify-content: space-between;
+.advantages-item-other {
+  display: block;
+  justify-content:center;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -137,7 +136,7 @@ body {
   width: 400px;
 }
 
-.advantages-title-causes {
+.cause-title {
   margin: 0;
   padding: 0;
   font-size: 24px;
@@ -149,7 +148,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-description-causes {
+.cause-description {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -198,36 +197,6 @@ body {
   color: #ffffff;
 }
 
-.features-title-lodging {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  text-align: center;
-  color: #000000;
-  background-color: #ffffff;
-  text-transform: uppercase;
-}
-
-.features-title-food {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  text-align: center;
-  color: #000000;
-  background-color: #ffffff;
-  text-transform: uppercase;
-}
-
-.features-title-souvenirs {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  text-align: center;
-  color: #000000;
-  background-color: #ffffff;
-  text-transform: uppercase;
-}
-
 .features-description {
   font-size: 18px;
   line-height: 21px;
@@ -246,6 +215,12 @@ body {
 }
 
 .features-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
   text-transform: uppercase;
 }
 
