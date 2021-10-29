@@ -284,6 +284,7 @@ body {
 .product-card-link {
   width: 180px;
   margin-right: 37px;
+  flex-shrink: 0;
 }
 
 .product-card-main {
@@ -293,6 +294,7 @@ body {
 .prduct-card-aside {
   width: 160px;
   margin-left: 37px;
+  flex-shrink: 0;
 }
 
 .product-card-title {
