@@ -157,10 +157,9 @@ body {
 
 .advantages-text-container {
   margin: 0;
-  padding-top: 98px;
-  padding-bottom: 77px;
+  padding: 0;
   width: 400px;
-  height: 384px;
+  height:auto;
   display: block;
   justify-content: space-between;
   text-align: center;
@@ -178,6 +177,7 @@ body {
 .advantages-item-other {
   display: block;
   width: 400px;
+  height: 384px;
   margin: 0;
   padding: 0;
   background-color: rgba(131, 179, 211, 0.12);
@@ -214,10 +214,6 @@ body {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
   margin-bottom: 77px;
-}
-
-.advantages-text-container-facts {
-  height: 384px;
 }
 
 .features-list {
@@ -407,10 +403,10 @@ body {
 
 .discharge-button {
   width: 160px;
-  height: 23px;
+  height: 48px;
 }
 
-.button-button-light {
+.button-view {
   width: 48px;
   height: 48px;
   margin-right: 8px;
