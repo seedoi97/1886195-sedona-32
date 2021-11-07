@@ -414,16 +414,16 @@ body {
 
 .product-card {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .product-card-link {
   width: 180px;
   margin-right: 37px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   flex-shrink: 0;
-}
-
-.product-card-main {
-  flex-grow: 1;
 }
 
 .prduct-card-aside {
@@ -433,11 +433,16 @@ body {
 }
 
 .product-card-title {
+  border: 1px solid red;
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
   text-align: left;
   color: #000000;
+  margin: 0;
+  margin-top: 28px;
+  margin-bottom: 1px;
+  padding: 10px 15px;
 }
 
 .reservation {
@@ -457,6 +462,11 @@ body {
   text-transform: uppercase;
   margin-top: 91px;
   margin-bottom: 15px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
 }
 
 .advantages-title-facts {
@@ -482,6 +492,13 @@ body {
   margin-bottom: 77px;
 }
 
+.product-card-main {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
 .product-card-type,
 .product-card-price {
   font-size: 18px;
@@ -489,6 +506,11 @@ body {
   font-weight: 400;
   text-align: left;
   color: #333333;
+  margin: 0;
+  margin-bottom: 31px;
+  padding: 0;
+  padding-right: 58px;
+  border: 1px solid red;
 }
 
 .product-card-rating {
